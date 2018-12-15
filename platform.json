@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/platformio/platform-ststm32.git"
+    "url": "https://github.com/Imposter/platform-ststm32.git"
   },
   "version": "4.5.0",
   "packageRepositories": [
@@ -71,7 +71,7 @@
     "framework-arduinoststm32": {
       "type": "framework",
       "optional": true,
-      "version": "~3.10400.181126"
+      "version": "https://github.com/Imposter/framework-arduinoststm32.git"
     },
     "framework-arduinostm32mxchip": {
       "type": "framework",
