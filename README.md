@@ -16,7 +16,7 @@ The STM32 family of 32-bit Flash MCUs based on the ARM Cortex-M processor is des
 
 ```ini
 [env:stable]
-platform = ststm32
+platform = https://github.com/Imposter/platform-ststm32.git#master
 board = ...
 ...
 ```
@@ -24,11 +24,16 @@ board = ...
 ## Development version
 
 ```ini
-[env:development]
-platform = https://github.com/platformio/platform-ststm32.git
+[env:develop]
+platform = https://github.com/Imposter/platform-ststm32.git#develop
 board = ...
 ...
 ```
+
+# TODO
+- Update CI information
+- Update fork with latest versions.
+- Delete other branches (make new develop branch)
 
 # Configuration
 
